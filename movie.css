@@ -1,0 +1,29 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Write css here */
+.judul-a {
+    /* css style */
+    color: rgb(38, 3, 94);
+}
+.judul-b{
+    color: rgb(112, 11, 67);
+}
+.judul-c {
+    color: black;
+}
+.center {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 70vh;
+}
+button {
+    background-color: gold;
+    padding: 1em;
+    margin: 1em;
+}
+button:hover{
+    background-color: chartreuse;
+}
